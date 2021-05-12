@@ -19,14 +19,14 @@ export function Home() {
 					btnLabel="View More"
 				/>
 				<Card
-					title="Rustic Styles"
+					title="Industrial Styles"
 					imageUrl="https://i.imgur.com/zyA2yyV.jpg"
 					cardContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed egestas quam, ut dapibus nulla. Fusce venenatis orci malesuada ligula cursus posuere. Suspendisse tortor dui."
 					btnUrl="#"
 					btnLabel="View More"
 				/>
 				<Card
-					title="Rustic Styles"
+					title="Outdoors Styles"
 					imageUrl="https://i.imgur.com/KlRrkbB.jpg"
 					cardContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed egestas quam, ut dapibus nulla. Fusce venenatis orci malesuada ligula cursus posuere. Suspendisse tortor dui."
 					btnUrl="#"
