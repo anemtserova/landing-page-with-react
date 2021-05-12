@@ -3,6 +3,7 @@ import PropType from "prop-types";
 import { Navbar } from "./navbar";
 import { Welcome } from "./welcome";
 import { Card } from "./card";
+import { Footer } from "./footer";
 
 //create your first component
 export function Home() {
@@ -33,6 +34,11 @@ export function Home() {
 					btnLabel="View More"
 				/>
 			</div>
+			<Footer
+				quoteSource=""
+				quoteText="We have all the light we need, we just need to put it in practice."
+				quotePerson="Albert Pike"
+			/>
 		</div>
 	);
 }

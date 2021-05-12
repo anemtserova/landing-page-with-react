@@ -11,12 +11,12 @@ export const Welcome = () => {
 					backgroundSize: "cover",
 					height: "100vh"
 				}}>
-				<div className="d-flex flex-column display-1 text-light justify-content-center align-items-center">
-					<p>Welcome to enLightening</p>
+				<div className="d-flex flex-column text-light justify-content-center align-items-center">
+					<p className="display-1">Welcome to enLightening</p>
 					<p className="display-4">A Home of Light and Imagination</p>
 				</div>
-				<button type="button" className="btn btn-light mt-5 px-4 py-3">
-					<p className="p-0 h4">Discover All Products</p>
+				<button type="button" className="btn btn-info mt-5 px-4 py-3">
+					<p className="p-0 display-4">Discover Your Light</p>
 				</button>
 			</div>
 		</div>
