@@ -10,7 +10,7 @@ export function Home() {
 		<div id="home">
 			<Navbar />
 			<Welcome />
-			<div className="d-flex">
+			<div className="d-flex justify-content-around">
 				<Card
 					title="Rustic Styles"
 					imageUrl="https://i.imgur.com/lBJECU9.jpg"
@@ -20,7 +20,14 @@ export function Home() {
 				/>
 				<Card
 					title="Rustic Styles"
-					imageUrl="https://i.imgur.com/lBJECU9.jpg"
+					imageUrl="https://i.imgur.com/zyA2yyV.jpg"
+					cardContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed egestas quam, ut dapibus nulla. Fusce venenatis orci malesuada ligula cursus posuere. Suspendisse tortor dui."
+					btnUrl="#"
+					btnLabel="View More"
+				/>
+				<Card
+					title="Rustic Styles"
+					imageUrl="https://i.imgur.com/KlRrkbB.jpg"
 					cardContent="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed egestas quam, ut dapibus nulla. Fusce venenatis orci malesuada ligula cursus posuere. Suspendisse tortor dui."
 					btnUrl="#"
 					btnLabel="View More"
