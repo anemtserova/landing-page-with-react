@@ -15,6 +15,9 @@ export const Welcome = () => {
 					<p>Welcome to enLightening</p>
 					<p className="display-4">A Home of Light and Imagination</p>
 				</div>
+				<button type="button" className="btn btn-light mt-5 px-4 py-3">
+					<p className="p-0 h4">Discover All Products</p>
+				</button>
 			</div>
 		</div>
 	);
